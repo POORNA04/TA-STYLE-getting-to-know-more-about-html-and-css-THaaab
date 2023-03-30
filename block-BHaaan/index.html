@@ -1,0 +1,68 @@
+<!---
+
+### Create a blog page having 2 articles.
+
+#### TODO 🚀:
+
+1. Create a blog page having 2 articles.
+2. The sample structure of a page has been shown below.
+
+---
+
+![alt text](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/html-css/ex3.png)
+
+---
+
+- Using a CSS reset is necessary.
+
+- Use appropriate semantic tags and keep the nesting and indentation clean.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Blog.html">Blog</a>
+    </header>
+    <main>
+        <section class="blog">
+            <article>
+                <div class="time"><time datetime="25-11-2015">november 25 2015</time></div>
+                <div><img src="media\cat.png" alt="Cat-img"></div>
+                <h2 class="heading">This Is My First Article</h2>
+                <p class="text">As anyone who has spent time with cats knows, our feline companions are mysterious—much more so than those other furry family members. Here John Bradshaw, author of Cat Sense (Basic Books, 2013), fields a selection of questions submitted by Scientific American editors and Twitter followers about the cat’s many quirks. Bradshaw is a visiting fellow at the University of Bristol School of Veterinary Sciences in England, where he studies the behavior and welfare of cats and dogs, as well as their interactions with people.</p>
+                <h4 class="question">Are cats less domesticated than dogs? Are they becoming more domesticated over time?</h4>
+                <p class="text">Cats are far more similar to their wild ancestors than dogs are to wolves, so dogs are in that sense the more domesticated of the two species. As they adapted to living alongside humans, cats became more sociable with one another and much more accepting of people, but there is no evidence that they have changed much more than that over the past few thousand years.</p>
+                <h4 class="question">Will cats, which require meat, eventually evolve to eat a broader array of foods as dogs do?</h4>
+                <p class="text">Cats and dogs belong to a group of mammals known as Carnivora, and the wild ancestors of both species dined primarily on meat. Recent DNA analyses indicate that over the course of their evolution, dogs have acquired more copies of the so-called amylase gene, which makes an enzyme that helps to break down starch. Having more copies of this gene has allowed dogs to eat a more omnivorous diet. In contrast, the cat family, known as Felidae, lost the genes that encode several key enzymes—including those that manufacture vitamin A, prostaglandins and the amino acid taurine—early in its evolution. Whereas dogs (and humans) can synthesize these substances from plant-based precursors, cats have to obtain them from meat. To expand their diet, cats would have to evolve physiological traits that allow them to synthesize these and other key nutrients from plant foods. This capacity has not emerged during the 10 million years of felid evolution, so it seems unlikely to arise spontaneously in our domestic cats.</p>
+                <a href="https://www.scientificamerican.com/article/the-inner-life-of-cats/">readmore</a>
+                <hr>
+            </article>
+            <article>
+                <div class="time"><time datetime="25-12-2015">december 25 2015</time></div>
+                <div><img src="media\dogies.png" alt="Cat-img"></div>
+                <h2 class="heading">This Is Another Article</h2>
+                <p class="text">Every dog has wants and needs, including social interaction, physical exercise, intellectual exercise, and time to rest. When their needs are met predictably and enrichment is consistently available, dogs experience less stress and frustration and may be less likely to develop problematic behaviors.</p>
+                <h4 class="question">Housetraining for Puppies and Dogs</h4>
+                <p class="text">By using positive reinforcement, consistency, and good supervision it is simple to housetrain most dogs. Start housetraining right away, or even before you bring home a new puppy or dog. Most puppies will pause activity, sniff, and sometimes circle before squatting or posturing to eliminate. Other puppies may act generally restless and agitated when they have a full bladder or bowel. Watch closely for these signs, so you can help your puppy be successful. The goals of housetraining are to have your dog eliminate in the right areas, eliminate immediately when asked, communicate the need to eliminate, eliminate on or off leash, and when you are near a person, and hold bladder and bowels when inside/not in the elimination area. This handout describes easy to follow instructions to help housetrain your puppy. If your previously well housetrained dog begins making mistakes, always consult your veterinarian for guidance.</p>
+                <h4 class="question">Demodectic Mange in Dogs</h4>
+                <p class="text">Demodectic mange is caused by a parasitic mite that lives in the hair follicles of dogs. As long as the body's immune system is functioning properly, these mites cause no harm. Demodectic mange most often occurs when a dog has an immature or weakened immune system, allowing the number of skin mites to increase rapidly. Topical, oral, and injectable medications are available to treat demodectic mange.</p>
+                <a href="https://vcahospitals.com/know-your-pet/topics/puppies">readmore</a>
+            </article>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <small>&copy; Poorna Shankar</small>
+    </footer>
+</body>
+</html>
